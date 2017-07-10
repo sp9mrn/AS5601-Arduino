@@ -12,4 +12,5 @@ If your Arduino encoder library count 4x (for example PJRC library with interrup
 *********************
 Attached INO file can kill your encoder !!!!
 It is one time programming (OTP) setting AS5601 to 2048 positions. You will never can change that setting. It's ONE Time Programming!!!!
-It means, that with 1x library you can have about 5kHz per 1 turn with 10Hz step. Pretty good
+*************************
+2048 means, that with 1x library you can have about 5kHz per 1 turn with 10Hz step. Pretty good
