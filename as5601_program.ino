@@ -29,7 +29,7 @@ Wire.endTransmission();             // stop transmitting
 Serial.print("PROGRAMOWANIE ");
 Wire.beginTransmission(0x36);       // start transmission to AS5601
 Wire.write(byte(0xFF));             // sets adress to OTP
-Wire.write(byte(0x40));             // write 0x40 to adress from previous line
+Wire.write(byte(0x40));             // write 0x40 to adress from previous line - killer line!!!!
 Wire.endTransmission();            // stop transmission
  }
 
